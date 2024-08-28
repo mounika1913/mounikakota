@@ -1,0 +1,36 @@
+.group1 {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.group input[type="text"],
+.group input[type="email"],
+.group input[type="password"],
+.group input[type="tel"],
+.group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.group select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.actions {
+    text-align: center;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
